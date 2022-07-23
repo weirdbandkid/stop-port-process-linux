@@ -3,4 +3,5 @@ read port
 echo "What protocol is the port? tcp or udp"
 read protocol
 
+echo "Stopped the following process:"
 fuser -k $port/$protocol
